@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Daniele Altomare</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<script type="module">
+			// Import the functions you need from the SDKs you need
+			import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+			import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-analytics.js";
+			// TODO: Add SDKs for Firebase products that you want to use
+			// https://firebase.google.com/docs/web/setup#available-libraries
+
+			// Your web app's Firebase configuration
+			// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+			const firebaseConfig = {
+				apiKey: "AIzaSyDHRg1w6K-uD7l5QTHvhzqkuyso82qayAk",
+				authDomain: "personal-website-1982.firebaseapp.com",
+				projectId: "personal-website-1982",
+				storageBucket: "personal-website-1982.appspot.com",
+				messagingSenderId: "385177081327",
+				appId: "1:385177081327:web:3f5bbdb5807c2ff159d21a",
+				measurementId: "G-PSM5RVSY1X"
+			};
+
+			// Initialize Firebase
+			const app = initializeApp(firebaseConfig);
+			const analytics = getAnalytics(app);
+		</script>
+		<div id="wrapper">
+ 			<div id="bg"></div>
+			<!-- <div id="overlay"></div> -->
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Daniele Altomare</h1>
+						<p>Product Expert &nbsp;&bull;&nbsp; Agile Leadership &nbsp;&bull;&nbsp; Strategic Tech Innovator</p>
+						<nav>
+							<ul>
+								<li><a target="_blank" href="mailto:daniele.altomare@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/in/danielealtomare/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+								<li><a target="_blank" href="https://medium.com/@danielealtomare" class="icon brands fa-medium"><span class="label">Medium</span></a></li>
+								<li><a target="_blank" href="https://www.quora.com/profile/Daniele-Altomare-2" class="icon brands fa-quora"><span class="label">Quora</span></a></li>
+								<li><a target="_blank" href="https://stackoverflow.com/users/2396432/fasteque" class="icon brands fa-stack-overflow"><span class="label">StackOverflow</span></a></li>
+								<li><a target="_blank" href="https://github.com/fasteque" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; 2023 Daniele Altomare. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+					</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
