@@ -567,6 +567,13 @@ input, select, textarea {
 			opacity: 0.95;
 		}
 
+			#header p a {
+				-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+				-webkit-touch-callout: none;
+				border: 0;
+				display: inline-block;
+			}
+
 		#header nav {
 			margin: 1.5em 0 0 0;
 		}
@@ -692,7 +699,7 @@ input, select, textarea {
 				}
 
 					#header nav a:hover:before {
-						background-color: rgba(255, 255, 255, 0.175);
+						background-color: rgba(255, 255, 255, 1);
 						color: #000;
 					}
 
@@ -703,7 +710,7 @@ input, select, textarea {
 
 					#header nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
-						color: #000;
+						color: #000000;
 					}
 
 				#header nav a span {
@@ -713,10 +720,6 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-/* 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%); */
 		bottom: 0;
 		cursor: default;
 		height: 6em;
@@ -997,7 +1000,8 @@ input, select, textarea {
 
 			#header nav a:active {
 				font-size: 1em;
-			} }
+			}
+		}
 
 /* Mobile (Portrait) */
 
