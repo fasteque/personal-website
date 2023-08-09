@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #191970;
+		background: #d5fbeb;
 		overflow: hidden;
 	}
 
@@ -99,7 +99,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #fff;
+		color: #000;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
@@ -226,7 +226,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #191970 bottom left;
+		background: #d5fbeb bottom left;
 		/* background: #4656a1 url("images/bg.jpg") bottom left; */
 		background-repeat: repeat-x;
 		height: 100%;
@@ -555,7 +555,7 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			font-size: 4.35em;
+			font-size: 3.00em;
 			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1em;
@@ -564,7 +564,7 @@ input, select, textarea {
 		#header p {
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
-			opacity: 0.75;
+			opacity: 0.95;
 		}
 
 		#header nav {
@@ -676,7 +676,7 @@ input, select, textarea {
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px #fff;
+					border: solid 1px #000;
 					display: block;
 					font-size: 1.75em;
 					height: 2.5em;
@@ -693,7 +693,7 @@ input, select, textarea {
 
 					#header nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
-						color: #fff;
+						color: #000;
 					}
 
 				#header nav a:active {
@@ -703,7 +703,7 @@ input, select, textarea {
 
 					#header nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
-						color: #fff;
+						color: #000;
 					}
 
 				#header nav a span {
